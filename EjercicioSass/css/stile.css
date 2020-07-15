@@ -1,0 +1,180 @@
+/* line 20, ../pruebaSass/scss/stile.scss */
+.container {
+  display: flex;
+  background-color: #fff;
+}
+
+/* line 23, ../pruebaSass/scss/stile.scss */
+.container h1 {
+  margin-top: 20rem;
+}
+
+/* line 29, ../pruebaSass/scss/stile.scss */
+.container .uno {
+  font-family: 'Lato', sans-serif;
+  width: 20%;
+  height: 40rem;
+  text-align: center;
+  color: #fff;
+  position: relative;
+  animation-name: strip1;
+  animation-duration: 4s;
+  background-color: #244F75;
+}
+
+/* line 38, ../pruebaSass/scss/stile.scss */
+.container .uno:hover .strip__content::before {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: white;
+  opacity: 0.5;
+  -webkit-transform-origin: center center;
+  transform-origin: center center;
+  -webkit-transform: skew(30deg) scaleY(1) translate(0, 0);
+  transform: skew(30deg) scaleY(1) translate(0, 0);
+  transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+/* line 57, ../pruebaSass/scss/stile.scss */
+.container .dos {
+  font-family: 'Lato', sans-serif;
+  width: 20%;
+  height: 40rem;
+  text-align: center;
+  color: #fff;
+  position: relative;
+  animation-name: strip1;
+  animation-duration: 4s;
+  background-color: #60BFBF;
+}
+
+/* line 64, ../pruebaSass/scss/stile.scss */
+.container .dos:hover .strip__content::before {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: white;
+  opacity: 0.5;
+  -webkit-transform-origin: center center;
+  transform-origin: center center;
+  -webkit-transform: skew(30deg) scaleY(1) translate(0, 0);
+  transform: skew(30deg) scaleY(1) translate(0, 0);
+  transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+/* line 86, ../pruebaSass/scss/stile.scss */
+.container .tres {
+  font-family: 'Lato', sans-serif;
+  width: 20%;
+  height: 40rem;
+  text-align: center;
+  color: #fff;
+  position: relative;
+  animation-name: strip1;
+  animation-duration: 4s;
+  background-color: #8C4B7E;
+}
+
+/* line 92, ../pruebaSass/scss/stile.scss */
+.container .tres:hover .strip__content::before {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: white;
+  opacity: 0.5;
+  -webkit-transform-origin: center center;
+  transform-origin: center center;
+  -webkit-transform: skew(30deg) scaleY(1) translate(0, 0);
+  transform: skew(30deg) scaleY(1) translate(0, 0);
+  transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+/* line 114, ../pruebaSass/scss/stile.scss */
+.container .cuatro {
+  font-family: 'Lato', sans-serif;
+  width: 20%;
+  height: 40rem;
+  text-align: center;
+  color: #fff;
+  position: relative;
+  animation-name: strip1;
+  animation-duration: 4s;
+  background-color: #F8BB44;
+}
+
+/* line 120, ../pruebaSass/scss/stile.scss */
+.container .cuatro:hover .strip__content::before {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: white;
+  opacity: 0.5;
+  -webkit-transform-origin: center center;
+  transform-origin: center center;
+  -webkit-transform: skew(30deg) scaleY(1) translate(0, 0);
+  transform: skew(30deg) scaleY(1) translate(0, 0);
+  transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+/* line 138, ../pruebaSass/scss/stile.scss */
+.container .cinco {
+  font-family: 'Lato', sans-serif;
+  width: 20%;
+  height: 40rem;
+  text-align: center;
+  color: #fff;
+  position: relative;
+  animation-name: strip1;
+  animation-duration: 4s;
+  background-color: #F24B4B;
+}
+
+/* line 144, ../pruebaSass/scss/stile.scss */
+.container .cinco:hover .strip__content::before {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: white;
+  opacity: 0.5;
+  -webkit-transform-origin: center center;
+  transform-origin: center center;
+  -webkit-transform: skew(30deg) scaleY(1) translate(0, 0);
+  transform: skew(30deg) scaleY(1) translate(0, 0);
+  transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+@keyframes strip1 {
+  0% {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+  100% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+/*# sourceMappingURL=stile.css.map */
+
+/*# sourceMappingURL=stile.css.map */
